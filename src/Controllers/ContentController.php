@@ -14,7 +14,7 @@ class ContentController extends Controller
 	 * @param Twig $twig
 	 * @return string
 	 */
-	public function viewStart(Twig $twig):string
+	public function sayStart(Twig $twig):string
 	{
 		return $twig->render('JeffGreenStatic::content.start');
 	}
