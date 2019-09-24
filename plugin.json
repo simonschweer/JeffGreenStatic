@@ -1,0 +1,8 @@
+{
+      "name":"Jeff Green",
+      "description":"Jeff Green Static Page Template",
+      "namespace":"HelloWorld",
+      "author":"Simon Schweer",
+      "type":"template",
+      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+}
