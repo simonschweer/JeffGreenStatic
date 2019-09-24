@@ -1,8 +1,8 @@
 {
-      "name":"HelloWorld",
+      "name":"JeffGreenStatic",
       "description":"Jeff Green Static Page Template",
-      "namespace":"HelloWorld",
+      "namespace":"JeffGreenStatic",
       "author":"Simon Schweer",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"JeffGreenStatic\\Providers\\JeffGreenStaticProvider"
 }
