@@ -15,7 +15,7 @@ class JeffGreenStaticRouteServiceProvider extends RouteServiceProvider
 	 */
 	public function map(Router $router)
 	{
-		$router->get('', 'JeffGreenStatic\Controllers\ContentController@sayStart');
+		$router->get('', 'JeffGreenStatic\Controllers\ContentController@sayHello');
 	}
 
 }

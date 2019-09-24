@@ -1,9 +1,7 @@
 <?php
 namespace JeffGreenStatic\Controllers;
-
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
-
 /**
  * Class ContentController
  * @package JeffGreenStatic\Controllers
@@ -14,8 +12,8 @@ class ContentController extends Controller
 	 * @param Twig $twig
 	 * @return string
 	 */
-	public function sayStart(Twig $twig):string
+	public function sayHello(Twig $twig):string
 	{
-		return $twig->render('JeffGreenStatic::content.start');
+		return $twig->render('JeffGreenStatic::content.hello');
 	}
 }
